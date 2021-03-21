@@ -11,3 +11,15 @@ ul {
 
 img {
   width: 100%; }
+
+.creation__wrapper {
+  display: grid;
+  grid-gap: 30px; }
+
+.image__wrapper {
+  position: relative; }
+
+.creation__title {
+  position: absolute;
+  top: calc(50% - 53px);
+  left: 28px; }
