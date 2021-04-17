@@ -1,22 +1,29 @@
 @import "./variable";
 
 .masthead {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   position: absolute;
   width: 100%;
 }
 
+.header,
+.masthead {
+    display: flex;
+    color: #FFFFFF;
+}
+
 .header {
   height: 100vh;
-  display: flex;
   place-content: center;
-  background-image: url("../images/mobile/image-hero.jpg");
+  background-image: url("#{$image-path}image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .header__title {
   align-self: center;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  padding: 20px;
 }
