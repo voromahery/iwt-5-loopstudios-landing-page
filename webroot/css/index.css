@@ -12,6 +12,24 @@ ul {
 img {
   width: 100%; }
 
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%; }
+
+.header {
+  height: 100vh;
+  display: flex;
+  place-content: center;
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header__title {
+  align-self: center; }
+
 .creation__wrapper {
   display: grid;
   grid-gap: 30px; }
