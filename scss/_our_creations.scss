@@ -1,8 +1,21 @@
 @import "./variable";
 
+.section__creations {
+  margin-top: 191px;
+  margin-bottom: 191px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.creations__heading {
+  margin-bottom: 105px;
+}
+
 .creation__wrapper {
-    display: grid;
-    grid-gap: 30px;
+  display: grid;
+  grid-gap: 30px;
+  color: #ffffff;
+  place-items: center;
 }
 
 .image__wrapper {
@@ -11,6 +24,15 @@
 
 .creation__title {
   position: absolute;
-  top: calc(50% - 53px);
+  top: calc(50% - 22px);
   left: 28px;
+}
+
+.creation__button {
+  border: 1px solid #000000;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: 75px;
+  padding-left: 75px;
+  max-width: max-content;
 }
