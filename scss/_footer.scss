@@ -21,13 +21,13 @@ footer .navigation__list {
 footer .navigation__list--item {
   margin-top: 30px;
   margin-bottom: 30px;
-  flex-wrap: wrap;
 }
 
 footer .social__media--list {
   display: flex;
   align-items: center;
   place-content: center;
+  flex-wrap: wrap;
 }
 
 footer .list__item {
