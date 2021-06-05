@@ -1,11 +1,11 @@
-@import "./variable";
+@import './variable';
 .navigation {
-  background-image: url("#{$icon-path}/icon-hamburger.svg");
+  background-image: url('#{$icon-path}/icon-hamburger.svg');
   width: 26px;
   height: 16px;
   @include background-style;
 }
 
-.navigation__list {
+.masthead .navigation__list {
   display: none;
 }

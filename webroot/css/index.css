@@ -42,7 +42,7 @@ img {
   height: 16px;
   background-repeat: no-repeat; }
 
-.navigation__list {
+.masthead .navigation__list {
   display: none; }
 
 .introduction__article {
@@ -87,7 +87,7 @@ img {
 footer {
   text-align: center;
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
   line-height: 24px; }
@@ -95,6 +95,25 @@ footer {
 .footer__title {
   margin-top: 0; }
 
-footer .social__media--list .list__item {
+footer .navigation__list {
+  margin-top: 56px;
+  margin-bottom: 56px; }
+
+footer .navigation__list--item {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  flex-wrap: wrap; }
+
+footer .social__media--list {
+  display: flex;
+  align-items: center;
+  place-content: center; }
+
+footer .list__item {
+  margin-right: 20px; }
+
+footer .list__item:last-of-type {
+  margin-right: 0; }
+
+.copyright__text {
+  margin-top: 25px; }
