@@ -1,4 +1,4 @@
-@import "./variable";
+@import './variable';
 
 .section__creations {
   margin-top: 191px;
@@ -29,10 +29,12 @@
 }
 
 .creation__button {
+  background-color: #ffffff;
+  text-transform: uppercase;
   border: 1px solid #000000;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  padding-right: 75px;
-  padding-left: 75px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 45px;
+  padding-left: 45px;
   max-width: max-content;
 }
