@@ -20,6 +20,7 @@ img {
 header,
 .introduction__article,
 .section__creations,
+.opened__menu,
 footer {
   padding-left: 30px;
   padding-right: 30px; }
@@ -49,14 +50,30 @@ footer {
   border: 1px solid #ffffff;
   padding: 20px; }
 
-.navigation {
-  background-image: url("../images//icon-hamburger.svg");
-  width: 26px;
-  height: 16px;
-  background-repeat: no-repeat; }
-
 .masthead .navigation__list {
   display: none; }
+
+.opened__menu .navigation__list {
+  display: block;
+  text-transform: uppercase;
+  margin-top: 50%; }
+
+.opened__menu .navigation__list--item {
+  margin-bottom: 21px; }
+
+.opened__menu {
+  padding-top: 27px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh; }
+
+.close__menu {
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: auto; }
 
 .introduction__article {
   text-align: center;
@@ -97,6 +114,7 @@ footer {
   padding-bottom: 16px;
   padding-right: 45px;
   padding-left: 45px;
+  margin-top: 12px;
   max-width: max-content; }
 
 footer {
