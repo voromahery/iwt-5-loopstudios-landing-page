@@ -12,16 +12,23 @@ ul {
 img {
   width: 100%; }
 
+header,
+.introduction__article,
+.section__creations,
+footer {
+  padding-left: 30px;
+  padding-right: 30px; }
+
 .masthead {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  width: 100%; }
+  width: calc(100% - 60px); }
 
 .header,
 .masthead {
   display: flex;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .header {
   height: 100vh;
@@ -33,7 +40,7 @@ img {
 .header__title {
   align-self: center;
   text-transform: uppercase;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   padding: 20px; }
 
 .navigation {
